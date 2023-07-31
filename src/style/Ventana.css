@@ -1,0 +1,72 @@
+.Overlay{
+    width: 100vw;
+    height: 100vh;
+    position:fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
+.containerVentana{
+    width: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #212F3D;
+    padding: 30px 50px;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.botonCerrar{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 20px;
+    right: 30px;
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: none;
+    cursor: pointer;
+    transition: .3s ease all;
+    border-radius: 5px;
+    &:hover{
+        background-color: #2a3947;
+    }
+}
+.ventanaInput{
+    height: 25px;
+    background-color: #212F3D;
+    border-color: #D5D8DC;
+    color: #D5D8DC;
+    border-radius: 10px;
+}
+.ventanaTextarea{
+    height: 100px;
+    background-color: #212F3D;
+    border-color: #D5D8DC;
+    color: #D5D8DC;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.containerBotton{
+    display: flex;
+    justify-content: center;
+}
+.ventanaBotton{
+    border-radius: 20px;
+    border-width: 0px;
+    width: 80px;
+    padding: 9px; 
+    margin-right: 15px;
+    color: #D5D8DC;
+    background-color: #3a5674;
+    cursor: pointer;
+    &:hover{
+        background-color: #344b63
+    }
+}
